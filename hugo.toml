@@ -1,0 +1,39 @@
+baseURL = 'https://cruxcucumber.com/'
+languageCode = 'en-us'
+title = 'Blog Posts I Guess??'
+theme = "nightfall"
+contentDir = "content/"
+
+
+[params]
+user = "skorp"
+hostname = "cruxcucumber.com"
+published = false
+readingTime = false
+sitedescription = "Blog Posts I Guess??"
+
+	[params.author]
+	name = "Skorp Posts"
+	email = "skorp@cruxcucumber.com"
+	
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/narwhalprince"
+icon = "fa-brands fa-github"
+target = "_blank"
+aria = "GitHub Profile"
+
+
+
+
+[menu]
+	[[menu.header]]
+	name = "about"
+	weight = 1
+	url = "/about"
+	
+	[[menu.header]]
+	name = "posts"
+	weight = 0
+	url = "/posts"
