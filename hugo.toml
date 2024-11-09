@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Blog Posts I Guess??'
 theme = "nightfall"
 contentDir = "content/"
-
+puralizelisttitles = false
 
 [params]
 user = "skorp"
@@ -37,3 +37,9 @@ aria = "GitHub Profile"
 	name = "posts"
 	weight = 0
 	url = "/posts"
+	
+	[[menu.header]]
+	name = "weiners"
+	weight = 2
+	url = "/weiners"
+
